@@ -14,7 +14,7 @@
         		ls2 (int): len second sequence to alignt
         		ls3 (int): len third sequence to alignt
 
-    		Returns:numpy matrix: scorematrix
+    		- Returns:numpy matrix: scorematrix
 		
         - traceback():
 		- traceback from bottom right corner to upper left corner. Finds best scoring path via greedy-algorithm.
@@ -26,7 +26,7 @@
         		seq1 (str): first sequence to alignt
         		seq2 (str): second sequence to alignt
 
-    		Returns:
+    		- Returns:
  			seq1_new (str): redesigned first sequence
         		seq2_new (str): redesigned second sequence
 
@@ -37,5 +37,5 @@
         		seq1_new (str): redesigned first sequence
         		seq2_new (str): redesigned second sequence
 
-    		Returns:
+    		- Returns:
  			str: alignment output string which consists of "|" and "*" symbols
